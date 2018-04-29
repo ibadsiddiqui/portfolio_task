@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="shotrcut icon" href="images/logo.png">
+    
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+                <a class="navbar-brand" href="#">I.S.</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#Who">Who I Am</a></li>
+                    <li><a href="#What">What I Am</a></li>
+                    <li><a href="#How">How to find Me</a></li>
+                    <li><a href="#Contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main front -->
+    <div class="container-fluid bg-1 margin1" id="Who">
+        <div class="row">
+            <h3> 
+                <strong class="text-danger"> Who Am I? </strong>
+                </br> A Chai Lover,
+                </br> Team Lead | Blockchain Engineer at BlockLinks Technologies.
+            </h3>
+        </div>
+        <img src="images/profile.jpg" alt="Web Developer" class="img-responsive img-circle col-lg-3"/>
+    </div>
+
+
+    <!-- What i am ? -->
+    <div class="container-fluid bg-2" id="What">
+        <h3 class="margin"> What I Am ?</h3>
+        <p class="WhatIAm margin2">
+            I'm Ibad Siddiqui, final year student at Hamdard University. And yeah, also a  Team Lead | Blockchain Engineer at BlockLinks.  
+            Almost done my Bachelors in Computer Science with especialization in Software and Decentralized Engineering. Avid learner, little techy though. 
+            Interested in exploring new places.
+            <br><br>
+            <strong>Professional skills:</strong> Blockchain Development, Android / IOS Application Development (Using ES6), Smart Contract Development.
+
+            If you want to meet or talk about something, you have to buy me a drink or a coffee.
+        </p>
+    </div>
+
+    <!-- find me  -->
+    
+    <div class="container-fluid bg-3 text-center" id="How">
+        <h3 class="margin">Where To Find Me?</h3><br>
+        <div class="row">
+            <div class="col-sm-4">
+                <p>
+                    If you are looking for my projects are source code for click on the below image to open up my <span class="text-success">GitHub</span> repository 
+                    <br>
+                    <sub>
+                        <a href="https://github.com/ibadsiddiqui" target="_blank"><input type="button" value="Github" class="input-sm btn-success ">
+                        </a>
+                    </sub>
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <p>
+                    Looking for my tweets on Twitter, click on the below image to see them and also my profile on Twitter
+                    <br>
+
+                    <a href="https://twitter.com/Tagic" target="_blank"><input type="button" value="Twitter" class="input-sm btn-info"></a>
+                </p>
+            </div>
+            <div class="col-sm-4 text-center">
+                <p>
+                    To see how professional and what I have achieved, click on the below image to see me on LinkedIn
+                </p>
+                <a href="https://pk.linkedin.com/in/ibad-siddiqui-a02ab7bb" target="_blank">
+                    <input type="button" value="LinkedIn" class="input-sm btn-primary ">
+                </a>
+            </div>
+            <div class="margin3"> <span> . </span> <span> . </span> <span> . </span> </div>
+        </div>
+    </div>
+
+    <!-- form for contact -->
+
+    <div class="container-fluid text-center contact">
+        <h3 class="margin">For Direct Contact:</h3>
+        <p>If, by some how, you feel like directly contacting me, fill the following form.</p>
+        <form class="form-horizontal" role="form" id="Contact" action="index.html">
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="email">Email:</label>
+                <div class="col-sm-6">
+                    <input type="email" class="form-control" id="email" placeholder="Enter email">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="name">User Name:</label>
+                <div class="col-sm-6">
+                    <input type="text" class="form-control" id="name" placeholder="User Name">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="comment">Comment:</label>
+                <div class="col-sm-6">
+                    <textarea class="form-control" rows="5" id="comment"></textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-6">
+                    <button type="submit" class="btn btn-info" data-toggle="collapse" data-target="#comments">Submit</button>
+                    <div id="comments" class="collapse text-success">
+                        Comment Send!
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!--  Footoer work  -->
+    <footer class="container-fluid bg-4 text-center">
+        <p>Made with <img src="images/headphone.png" alt="headphones"> and <img src="images/music.png" alt=""><br/> By <a href="mailto:ibadsiddiqui01@outlook.com" class="text-danger notHover">Ibad Siddiqui</a></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,179 @@
+body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+    text-align: center
+}
+
+.bg-1 {
+    color: white;
+    background-color: #1abc9c
+}
+
+.bg-2 {
+    background-color: chocolate;
+    /* Dark Blue */
+    color: #ffffff;
+}
+
+.bg-3 {
+    background-color: #102030;
+    /* White */
+    color: #ffffff;
+}
+
+.bg-4 {
+    background-color: #2f2f2f;
+    /* Black Gray */
+    color: #fff;
+}
+
+.WhatIAm {
+    font-size: 19px;    
+}
+
+.margin1 {
+    padding-top: 100px;
+    padding-bottom: 30px;
+
+}
+
+.margin1>img{
+    margin-top: 10px;
+    margin-left: 37% 
+}
+
+.margin2 {
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.margin3{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    padding: 10px
+
+}
+
+.margin {
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.contact {
+    background: #1e4a4d;
+    color: white
+}
+.contact >form {
+    margin-left: 15%
+}
+@media only screen and (min-width:320px) {
+    .margin2 {
+        font-size: 18px;
+    }
+    h3.col-xs-6 {
+        margin: 90px auto 10px 80px;
+        text-align: center;
+    }
+
+}
+
+@media only screen and (min-width:375px) {
+    .margin2 {
+        font-size: 18px;
+    }
+    h3.col-xs-6 {
+        margin: 90px auto 10px 90px;
+        text-align: center;
+    }
+    input[type="button"] {
+        margin: 10px
+    }
+
+}
+
+@media only screen and (min-width:425px) {
+    .margin2 {
+        font-size: 18px;
+    }
+    h3.col-xs-6 {
+        margin: 90px auto 10px 110px;
+        text-align: center;
+    }
+
+    input[type="button"] {
+        margin: 10px auto auto 160px;
+        display: block;
+    }
+}
+
+@media only screen and (min-width:600px) {
+    h3.col-xs-6 {
+        margin-top: 120 px;
+        margin-left: 180px;
+        margin-bottom: 20px;
+    }
+
+    input[type="button"] {
+        margin: 20px auto auto 275px;
+        display: block;
+    }
+    input[value="LinkedIn"] {
+        margin-left: 275px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    h3.col-xs-6 {
+        margin: 100px auto auto 210px;
+        text-align: center;
+    }
+    input[type="button"] {
+        margin: 20px auto auto 80px;
+        display: block;
+    }
+    input[value="LinkedIn"] {
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    h3.col-xs-6 {
+        margin-top: 190px
+    }
+
+    input[type="button"] {
+        margin: 20px auto auto 120px;
+        display: block;
+    }
+    input[value="Twitter"] {
+        margin-left: 130px;
+    }
+    input[value="Github"] {
+        margin-left: 130px;
+    }
+}
+
+@media only screen and (min-width:1336px) {
+    h3.col-xs-6 {
+        margin-top: 110px;
+        margin-left: 380px;
+        margin-bottom: 20px;
+    }
+
+    input[type="button"] {
+        margin: 20px auto auto 190px;
+        display: block;
+    }
+    input[value="LinkedIn"] {
+        margin-left: 180px;
+    }
+}
+
+@media only screen and (min-width:1440px) {
+    h3.col-xs-6 {
+        margin-left: 420px;
+        margin-bottom: 20px;
+    }
+
+}
